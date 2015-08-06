@@ -7,22 +7,69 @@
 	<!-- Bootstrap -->
 	<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
+	<!-- Font Awesome -->
+	<link href="bower_components/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+
 	<!-- Angular -->
 	 <script src="bower_components/angular/angular.min.js"></script>
 
 	 <!-- Angular, main module -->
 	 <script src="app/app.js"></script>
 	 <script src="app/controllers/main.controller.js"></script>
-	
+
+	 <!-- Style -->
+	 <link rel="stylesheet" type="text/css" href="styles/custom.css"></script>
+		
 </head>
 <body>
 
-	<div class="col-xs-10" ng-controller="mainController">
-		
-		<h1>Annars</h1>
-		<button class="btn btn-default">{{hej}}</button>
-		
+
+
+	<div class="col-xs-12" ng-controller="mainController">
+
+	<div class="col-xs-3 thumb" ng-repeat="project in projects" ng-if="!show" ng-click="changeView(project)" ng-style="{'background-color' : project.color}">
+		<h2>{{project.title}}</h2>
 	</div>
+
+
+	<div ng-if="show">
+
+		<div class="col-xs-1 sides"><i class="fa fa-x fa-close" ng-click="changeView()"></i></div>
+
+		<div class="col-xs-10">
+
+			<div class="col-xs-12">
+				
+				<h1>{{activeProject.title}}</h1>	
+				
+			</div>
+
+			<div class="col-xs-8">
+
+				<video class="videodiv" controls>
+				  <source src="movie.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video>		
+				
+			</div>
+
+			<div class="col-xs-4 ">	
+				<blockquote>
+				  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+				</blockquote>
+				<p>{{activeProject.description}}</p>
+			</div>	
+
+		</div>
+
+		<div class="col-xs-1"></div>
+
+	</div>
+
+</div>
+
+	
+		
 
 
 </body>
