@@ -73,3 +73,6 @@ button{
 .timeline {
 	text-align: center;
 }
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
