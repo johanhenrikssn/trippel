@@ -83,7 +83,7 @@
         {
             title: "Splash",
             description: "",
-            subtitle: "Multiplayerspel med ...., ett kandidatarbete",
+            subtitle: "Multiplayerspel med .., ett kandidatarbete",
             color: "#3E4F5B",
             source: "././projects/movies/splash.mp4",
             type: "video",
@@ -126,22 +126,13 @@
             year: 4
         },
         {
-            title: "Koldioxidutsläpps visualisering",
-            description: "Data om koldioxidutsläpp och elproduktion visualiseras i webbläsaren med hjälp av olika visualiseringmetoder. Projektet är gjort i kursen Informations visualisering. ",
-            subtitle: "Webbaserad visualisering av koldioxidutsläpp",
-            color: "#B0B6BA",
-            source: "././projects/webb/oscar/infoviz",
-            type: "webb",
-            year: 4
-        },
-        {
             title: "DooVR",
             description: " ",
             subtitle: "",
             color: "#B0B6BA",
             source: "././projects/movies/doo.mp4",
             type: "video",
-            year: 4
+            year: 3
         },
         {
             title: "I see fire",
