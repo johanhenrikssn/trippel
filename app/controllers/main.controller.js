@@ -221,6 +221,16 @@
             return $scope.fullscreen == true;
         }
 
+        $scope.getProjectsFromYear = function(year)
+        {
+            var tmpArray = [];
+            for (var i = 0; i < $scope.projects.length; i++) {
+                if($scope.projects[i].year == year)
+                    tmpArray.push($scope.projects[i])
+            };
+
+            return tmpArray;
+        }
     }
 })();
 
