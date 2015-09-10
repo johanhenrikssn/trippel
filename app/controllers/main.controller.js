@@ -15,7 +15,10 @@
         $scope.infofilm = {
             title: "Om medieteknik",
             description: "",
-            subtitle: "Informationsfilm om medieteknik"
+            subtitle: "Informationsfilm om medieteknik",
+            source: "././projects/movies/medusa.mp4",
+            type: "video"
+
         };
 
     	$scope.projects = [
@@ -208,6 +211,15 @@
             source: "././projects/movies/anton.mp4",
             type: "video",
             year: 5 
+        },
+        {
+            title: "Rob's Vengence",
+            description: "Rob's Vengence är en 3D-animerad kortfilm som skapades i kursen Digitala medier. Idén bestod av att skapa en kort film på cirka en minut så att fokus kunde läggas på att skapa detaljerade omgivningar, modeller, animationer och ljussättning. Resultatet belönades med priset ”Bästa visuella effekt i film & rörlig bild” på C Awards-galan 2014.",
+            subtitle: "3D-animerad kortfilm",
+            color: "#B0B6BA",
+            source: "././projects/movies/robs_vengeance.mp4",
+            type: "video",
+            year: 1 
         }
         ];
 
@@ -215,6 +227,9 @@
 
             $scope.show = !$scope.show;
             $scope.activeProject = project;
+
+            $scope.fullscreen.bool = false;
+            
         }
         
         $scope.checkFullscreen = function() {
