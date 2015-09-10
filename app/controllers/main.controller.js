@@ -5,12 +5,6 @@
         .module('trippelApp')
         .controller('mainController', mainController);
 
-    $(function() {
-        $('.carousel').carousel({
-            interval: 500
-        })
-    });
-
 
     function mainController($scope) { 
 
@@ -35,8 +29,35 @@
             year: 3
         },
         {
+            title: "Mr Carrot",
+            description: "Spelet går i princip ut på att rädda sina morotskompisar från maskarna som anfaller. Ett stort fokus låg på det grafiska och spelet gjordes i grafikmotorn Ogre 3D. Spelet programmerades sedan i C++. Kursen som spelet är gjort i heter 3D Datorgrafik. ",
+            subtitle: "Spel i 3D med fokus på estetiken",
+            color: "#3E4F5B",
+            source: "././projects/movies/mr_carrot.mp4",
+            type: "video",
+            year: 2
+        },
+        {
+            title: "Legohemsida",
+            description: "Projektet var att skapa en LEGO-hemsida som skulle vara kopplad till en databas. Hemsidan skulle fungera som ett slags uppslagsverk för LEGO-fantaster där de kunde kolla upp olika legosatser och vilka bitar de olika satserna innehåller. Flera programmeringsspråk skulle användas, HTML, CSS, PHP, JavaScript och MySQL för att skapa hemsidan. HTML användes för att skapa strukturen på hemsidan, var de olika blocken ska ligga osv. CSS var till för att bestämma utseendet, hur bilderna och texterna skulle utformas definerades där. JavaScript användes för att göra hemsidan dynamisk, som att när musen förs över objekten i listorna ändras färgen på texten på objektet. PHP och MySQL är språk som används vid arbete med databaser, som i detta fall handlade om LEGO. ",
+            subtitle: "Hemsida från grundkurs i webbutveckling",
+            color: "#3BC0C3",
+            source: ["././projects/pictures/lego/1.png", "././projects/pictures/lego/2.png", "././projects/pictures/lego/3.png", "././projects/pictures/lego/4.png"],
+            type: "pictures",
+            year: 1
+        },
+        {
+            title: "SPH fluidsimulering",
+            description: "Projektet är en simulering av en fluid i 2 dimensioner. Tekniken som används kallas Smoothed Particle Hydrodynamics, det innebär att fluiden ses som partiklar som rör sig över ett rutnät. Partiklarna påverkar varandra och väggarna med olika krafter och utifrån rutnätet beräknas varje partikels nästa position och tillsammans rör sig partiklarna som en fluid. Webbapplikationen är egentligen ett sidoprojekt utifrån ett projekt som är gjort i C++/OpenGL till kursen Modelleringsprojekt. ",
+            subtitle: "Webbaserad simulering av en fluid",
+            color: "#3BC0C3",
+            source: "././projects/webb/sph_fluid/app",
+            type: "webb",
+            year: 3
+        },
+        {
             title: "A glance at happiness",
-            description: "Projektgruppen bestod av 5 medieteknikstudenter från årskurs 1. Projektet är en del av kursen Digitala Medier. Syftet med projektet var främst att studenterna skulle lära sig att arbeta och planera tillsammans i grupp. Ramarna för projektet är väldigt vida och studenterna har stora möjligheter att använda sin kreativitet för att skapa något inom valfritt medium.",
+            description: "Projektgruppen bestod av 5 medieteknikstudenter från årskurs 1. Projektet är en del av kursen Digitala Medier. Fokus för A Glance At Happiness låg på att under den korta tiden som filmen utspelar sig ändå lyckas skapa en känslomässig kontakt mellan tittaren och huvudpersonen Bop. Tanken var att åskådaren skulle kunna känna någon slags empati med Bop, som stöter på motgång efter motgång. En av de större utmaningarna var att lyckas förmedla känslor, då Bop varken pratar eller gör ansiktsuttryck. Detta löstes bland annat genom att arbeta med ett tydligt kroppsspråk. Filmen skapades bland annat av 3D-motiontracking med programmet 'boujou' och simulering med 'endorphin'. Data från dessa exporterades sedan till modelering- och animeringsprogrammet 'Cinema4D' där karaktären modelerades och animerades mot filmklippen som bakgrund. Sedan ljussattes scenerna och exporterades för klippning och redigering i 'Adobe After effects'. I princip allt ljud är pålagt efteråt och musiken är skriven av oss.",
             subtitle: "Animerad film från introduktionskurs",
             color: "#3BC0C3",
             source: "././projects/movies/a_glance.mp4",
@@ -157,7 +178,7 @@
             description: "Ett projekt som gjordes i grupp om två i kursen bilddatabaser. Givet en inbild ska programmet återskapa denna bild genom att ersätta områden i inbilden med olika databasbilder. Mosaikbilden som skapas kommer därmed innehålla en mängd olika databasbilder. På nära avstånd kommer varje enskild databasbild att synas men på ett längre avstånd kommer mosaikbilden i sin helhet att efterlikna orginalbilden. Analysera bilder för att hitta färg, viktiga områden och sen hitta bästa matchning i databasen.",
             subtitle: "Applikationen skapar en mosaikbild som innehåller bilder från en databas",
             color: "#F0F0F1",
-            source: ["././projects/pictures/mosaik/1.png", "././projects/pictures/mosaik/2.png"],
+            source: ["././projects/pictures/mosaik/1.png", "././projects/pictures/mosaik/2.png", "././projects/pictures/mosaik/3.png"],
             type: "pictures",
             year: 4
         },
@@ -168,7 +189,25 @@
             color: "#F0F0F1",
             source: ["././projects/pictures/ray/1.png", "././projects/pictures/ray/2.png"],
             type: "pictures",
-            year: 4
+            year: 4 
+        },
+        {
+            title: "Visualizing Space Weather",
+            description: "Exjobbaren programmerade delar i projektet Open Space på NASA tillsammans med Linköpings Universitet. Programmet ska kunna visa och flyga omkring i vårt universum i 3D med t.ex planeter, solstormar, stjärnor och rymdfarkoster.",
+            subtitle: "Exjobb i sammarbete med NASA",
+            color: "#F0F0F1",
+            source: ["././projects/pictures/space/1.png", "././projects/pictures/space/2.png"],
+            type: "pictures",
+            year: 5 
+        },
+        {
+            title: "",
+            description: "",
+            subtitle: "",
+            color: "#B0B6BA",
+            source: "././projects/movies/anton.mp4",
+            type: "video",
+            year: 5 
         }
         ];
 

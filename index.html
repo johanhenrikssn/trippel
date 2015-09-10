@@ -7,7 +7,6 @@
 	
 	<script src="bower_components/jquery/dist/jquery.js"></script>
 
-
 	<!-- Bootstrap -->
 	<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 	<script src="bower_components/bootstrap/js/carousel.js"></script>
@@ -22,24 +21,26 @@
 	 <script src="app/app.js"></script>
 	 <script src="app/controllers/main.controller.js"></script>
 
+	 <!-- Angular, directives -->
 	 <script src="app/directives/video.directive.js"></script>
 	 <script src="app/directives/titlebar.directive.js"></script>
+	 <script src="app/directives/carousel.directive.js"></script>
 
 	 <!-- Style -->
 	 <link rel="stylesheet" type="text/css" href="styles/custom.css">
 
 		
 </head>
-<body>
+<body ng-controller="mainController">
 
-	<div class="" title-bar-scroll>
-		<h1 class="col-xs-12 title" ng-style="{'background-color': bgColor}" ng-if="!show">
+	<div title-bar-scroll ng-if="!show">
+		<h1 class="col-xs-12 title" ng-style="{'background-color': bgColor}">
 			CIVILINGENJÖR MEDIETEKNIK 
 			<i class="fa fa-file-video-o" ng-click="changeView(infofilm)"></i>
 		</h1>
 	</div>
 
-	<div class="col-xs-12 container" ng-controller="mainController">
+	<div class="col-xs-12">
 	
 		<div class="col-xs-3 minus0-6 timeline" ng-repeat="i in [1, 2, 3, 4, 5]"  ng-if="!show">
 			<h1>{{i}}</h1>
@@ -113,6 +114,7 @@
 					  	<i class="fa fa-2x fa-expand"></i>
 					</button>
 				</div>
+
 
 			</div>
 
