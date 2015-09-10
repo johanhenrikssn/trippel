@@ -58,15 +58,24 @@ div {
 	padding: 0;
 }
 
+.title {
+	margin: 15px;
+	text-align: center;
+	position: fixed;
+	z-index: 1;
+	margin: 0;
+}
 .fullscreen{
-	width: 80vw;
+	width: 0vw;
 	position: absolute;
     left: 0px;
     top: 0px;
 	z-index: 1;
 }
 
+
 .timeline {
+	margin-top: 6%;
 	text-align: center;
 }
 
@@ -80,7 +89,7 @@ div {
 }
 
 .col-xs-12 {
-	padding: 0;
+	padding: 0 0 2%;
 }
 
 .minus0-6 {
@@ -100,4 +109,14 @@ div {
   width: 100%;
   padding-left: 2%;
   z-index: 2147483647;
+}
+
+@media screen and (max-width: 1200px) {
+    h1 {
+    	font-size: 400%;
+    }
+
+    .timeline {
+    	margin-top: 10%;
+    }
 }

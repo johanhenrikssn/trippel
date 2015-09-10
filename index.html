@@ -7,7 +7,6 @@
 	
 	<script src="bower_components/jquery/dist/jquery.js"></script>
 
-
 	<!-- Bootstrap -->
 	<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 	<script src="bower_components/bootstrap/js/carousel.js"></script>
@@ -22,77 +21,110 @@
 	 <script src="app/app.js"></script>
 	 <script src="app/controllers/main.controller.js"></script>
 
+	 <!-- Angular, directives -->
 	 <script src="app/directives/video.directive.js"></script>
+	 <script src="app/directives/titlebar.directive.js"></script>
 	 <script src="app/directives/carousel.directive.js"></script>
 
 	 <!-- Style -->
-	 <link rel="stylesheet" type="text/css" href="styles/custom.css"></script>
+	 <link rel="stylesheet" type="text/css" href="styles/custom.css">
 
 		
 </head>
-<body>
+<body ng-controller="mainController">
 
-	<div class="col-xs-12" ng-controller="mainController">
-	<h1 ng-if="!show">
-		CIVILINGENJÖR MEDIETEKNIK 
-		<i class="fa fa-file-video-o" ng-click="changeView(infofilm)"></i>
+	<div title-bar-scroll ng-if="!show">
+		<h1 class="col-xs-12 title" ng-style="{'background-color': bgColor}">
+			CIVILINGENJÖR MEDIETEKNIK 
+			<i class="fa fa-file-video-o" ng-click="changeView(infofilm)"></i>
+		</h1>
+	</div>
 
-	</h1>
+	<div class="col-xs-12">
 	
-	<div class="col-xs-3 minus0-6 timeline" ng-repeat="i in [1, 2, 3, 4, 5]"  ng-if="!show">
-		<h1>{{i}}</h1>
+		<div class="col-xs-3 minus0-6 timeline" ng-repeat="i in [1, 2, 3, 4, 5]"  ng-if="!show">
+			<h1>{{i}}</h1>
 
-		<div ng-repeat="project in getProjectsFromYear(i)">
-			<div class="thumb" ng-click="changeView(project)" ng-style="{'background-color' : project.color}">
-				<h2>{{project.title}}</h2>
+			<div ng-repeat="project in getProjectsFromYear(i)">
+				<div class="thumb" ng-click="changeView(project)" ng-style="{'background-color' : project.color}">
+					<h2>{{project.title}}</h2>
+				</div>
 			</div>
 		</div>
-	</div>
+
+		<div ng-if="show">
+
+			<div class="col-xs-1 sides"><i class="fa fa-2x fa-close" ng-click="changeView()"></i></div>
+
+			<div class="col-xs-10">
+
+				<div class="col-xs-12">
+					
+					<h1><span ng-style="{'background-color': activeProject.color}">{{activeProject.title}}</span></h1>	
+					
+				</div>
+
+				<div class="col-xs-8">
 
 
+					<video-container ng-if="activeProject.type == 'video'"></video-container>
 
-	<div ng-if="show">
+					<!-- Webb projects -->
+					<iframe ng-src="{{activeProject.source}}" frameborder="0" ng-class="{fullscreen: fullscreen.bool == true}" ng-if="activeProject.type == 'webb'"  >
+					</iframe>
 
-		<div class="col-xs-1 sides"><i class="fa fa-2x fa-close" ng-click="changeView()"></i></div>
+					<!-- Pitures projects -->
+					<div id="myCarousel" class="carousel slide" data-ride="carousel" ng-if="activeProject.type == 'pictures'">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					    <li data-target="#myCarousel" data-slide-to="1"></li>
+					  </ol>
 
-		<div class="col-xs-10">
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+					    <div class="item active">
+					      <img class="img-responsive center-block" ng-src="{{activeProject.source[0]}}">
+					    </div>
 
-			<div class="col-xs-12">
-				
-				<h1><span ng-style="{'background-color': activeProject.color}">{{activeProject.title}}</span></h1>	
-				
+					    <div class="item">
+					      <img class="img-responsive center-block" ng-src="{{activeProject.source[1]}}">
+					    </div>
+					  </div>
+
+					  <!-- Left and right controls -->
+					  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div>
+
+				</div>
+
+				<div class="col-xs-4 ">	
+					<blockquote>
+					  <p>{{ activeProject.subtitle }}</p>
+					</blockquote>
+					<p>{{activeProject.description}}</p>
+					<button ng-click="fullscreen.bool = true" ng-if="activeProject.type == 'webb'">
+					  	<i class="fa fa-2x fa-expand"></i>
+					</button>
+				</div>
+
+
 			</div>
 
-			<div class="col-xs-8">
+			<button ng-click="fullscreen.bool = false" ng-if="fullscreen.bool">
+				<i class="fa fa-2x fa-compress"></i>
+			</button>
 
+			<div class="col-xs-1"></div>
 
-				<video-container ng-if="activeProject.type == 'video'"></video-container>
-
-				<!-- Webb projects -->
-				<iframe ng-src="{{activeProject.source}}" frameborder="0" ng-class="{fullscreen: fullscreen.bool == true}" ng-if="activeProject.type == 'webb'" >
-				</iframe>
-
-				<carousel-container ng-if="activeProject.type == 'pictures'"></carousel-container>
-
-			</div>
-
-			<div class="col-xs-4 ">	
-				<blockquote>
-				  <p>{{ activeProject.subtitle }}</p>
-				</blockquote>
-				<p>{{activeProject.description}}</p>
-				<button ng-click="fullscreen.bool = true" ng-if="activeProject.type == 'webb'">
-				  	<i class="fa fa-2x fa-expand"></i>
-				</button>
-			</div>	
 		</div>
-		<button ng-click="fullscreen.bool = false" ng-if="fullscreen.bool">
-			<i class="fa fa-2x fa-compress"></i>
-		</button>
-
-		<div class="col-xs-1"></div>
-
-	</div>
 
 </div>
 

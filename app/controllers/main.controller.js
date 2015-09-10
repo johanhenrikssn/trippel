@@ -8,7 +8,7 @@
 
     function mainController($scope) { 
 
-    	$scope.activeProject;
+        $scope.activeProject;
         $scope.show = false;
         $scope.fullscreen = { bool: false};
 
@@ -21,10 +21,10 @@
 
         };
 
-    	$scope.projects = [
+        $scope.projects = [
         {
-    		title: "Medusa 3D-scannerbås",
-    		description: "Medusa är ett projekt som utfördes i kursen Medietekniskt kandidatarbete. Ett utvecklingsteam bestående av sju personer fick i uppgift att utveckla ett mjukvarusystem för ett 3D-scannerbås för att skapa en modell av användaren i färg. Båset skulle innehålla flera djupkameror för att scanna användaren. Den erhållna punktdatan skulle användas för att skapa en solid tredimensionell modell. Användaren skulle även ha möjlighet att interagera med systemet via ett enkelt gränssnitt. Gränssnittet skulle ha som användningsområde att starta scanning, spara- och kasta modell och göra om scanningsprocessen.",
+            title: "Medusa 3D-scannerbås",
+            description: "Medusa är ett projekt som utfördes i kursen Medietekniskt kandidatarbete. Ett utvecklingsteam bestående av sju personer fick i uppgift att utveckla ett mjukvarusystem för ett 3D-scannerbås för att skapa en modell av användaren i färg. Båset skulle innehålla flera djupkameror för att scanna användaren. Den erhållna punktdatan skulle användas för att skapa en solid tredimensionell modell. Användaren skulle även ha möjlighet att interagera med systemet via ett enkelt gränssnitt. Gränssnittet skulle ha som användningsområde att starta scanning, spara- och kasta modell och göra om scanningsprocessen.",
             subtitle: "3D-scannerbås, ett kandidatarbete",
             color: "#3E4F5B",
             source: "././projects/movies/medusa.mp4",
@@ -248,5 +248,3 @@
         }
     }
 })();
-
-
