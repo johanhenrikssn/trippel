@@ -16,7 +16,7 @@
             title: "Om medieteknik",
             description: "",
             subtitle: "Informationsfilm om medieteknik",
-            source: "././projects/movies/medusa.mp4",
+            source: "././projects/movies/presentationsfilm.mp4",
             type: "video"
 
         };
