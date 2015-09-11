@@ -26,7 +26,8 @@
             color: "#3E4F5B",
             source: "././projects/movies/medusa.mp4",
             type: "video",
-            year: 3
+            year: 3,
+            course: "Kandidatarbete"
         },
         {
             title: "Mr Carrot",
@@ -35,7 +36,8 @@
             color: "#3E4F5B",
             source: "././projects/movies/mr_carrot.mp4",
             type: "video",
-            year: 2
+            year: 2,
+            course: "3D-Datorgrafik"
         },
         {
             title: "Legohemsida",
@@ -44,7 +46,8 @@
             color: "#3BC0C3",
             source: ["././projects/pictures/lego/1.png", "././projects/pictures/lego/2.png", "././projects/pictures/lego/3.png", "././projects/pictures/lego/4.png"],
             type: "pictures",
-            year: 1
+            year: 1,
+            course: "Elektronisk publicering"
         },
         {
             title: "SPH fluidsimulering",
@@ -53,7 +56,8 @@
             color: "#3BC0C3",
             source: "././projects/webb/sph_fluid/app",
             type: "webb",
-            year: 3
+            year: 3,
+            course: "Modellering och simulering"
         },
         {
             title: "A glance at happiness",
@@ -62,7 +66,8 @@
             color: "#3BC0C3",
             source: "././projects/movies/a_glance.mp4",
             type: "video",
-            year: 1
+            year: 1,
+            course: "Digitala medier"
         },
         {
             title: "Isande diskant",
@@ -71,8 +76,8 @@
             color: "#B0B6BA",
             source: "././projects/movies/isande_diskant.mp4",
             type: "video",
-            year: 1
-
+            year: 1,
+            course: "Digitala medier"
         }, 
         {
             title: "Ladybug",
@@ -81,7 +86,8 @@
             color: "#F16161",
             source: "././projects/movies/ladybug.mp4",
             type: "video",
-            year: 3
+            year: 3,
+            course: "Kandidatarbete"
         }, 
         {
             title: "Mote.fm",
@@ -90,7 +96,8 @@
             color: "#F0F0F1",
             source: "././projects/movies/mote_fm.mp4",
             type: "video",
-            year: 2
+            year: 2,
+            course: "Kommunikation och användargränssnitt"
         },
         {
             title: "Penguins Maze",
@@ -99,7 +106,8 @@
             color: "#F16161",
             source: "././projects/movies/penguins_maze.mp4",
             type: "video",
-            year: 2
+            year: 2,
+            course: "Kommunikation och användargränssnitt"
         },
         {
             title: "Splash",
@@ -108,7 +116,8 @@
             color: "#3E4F5B",
             source: "././projects/movies/splash.mp4",
             type: "video",
-            year: 3
+            year: 3,
+            course: "Kandidatarbete"
         },
         {
             title: "Continuous",
@@ -117,7 +126,8 @@
             color: "#3E4F5B",
             source: "././projects/webb/continuous",
             type: "webb",
-            year: 3
+            year: 3,
+            course: "3D-Datorgrafik"
         },
         {
             title: "Skurk",
@@ -126,7 +136,8 @@
             color: "#F16161",
             source: "././projects/webb/skurk",
             type: "webb",
-            year: 4
+            year: 4,
+            course: "Digitala medier"
         },
         {
             title: "WebtherGL",
@@ -135,7 +146,8 @@
             color: "#3E4F5B",
             source: "././projects/webb/webther",
             type: "webb",
-            year: 2
+            year: 2,
+            course: "3D-Datorgrafik"
         },
         {
             title: "Procedural Planet Generation",
@@ -144,7 +156,8 @@
             color: "#F16161",
             source: "././projects/webb/oscar/webgl",
             type: "webb",
-            year: 4
+            year: 4,
+            course: "Procedurella metoder för bilder"
         },
         {
             title: "DooVR",
@@ -153,7 +166,8 @@
             color: "#B0B6BA",
             source: "././projects/movies/doo.mp4",
             type: "video",
-            year: 3
+            year: 3,
+            course: "Kandidatarbete"
         },
         {
             title: "I see fire",
@@ -162,7 +176,8 @@
             color: "#B0B6BA",
             source: "././projects/webb/fire",
             type: "webb",
-            year: 4
+            year: 4,
+            course: "Procedurella metoder för bilder"
         },
         {
             title: "Polygon",
@@ -171,7 +186,8 @@
             color: "#B0B6BA",
             source: "././projects/webb/polygon",
             type: "webb",
-            year: 2
+            year: 2,
+            course: "3D-Datorgrafik"
         },
         {
             title: "Bildmosaik",
@@ -180,7 +196,8 @@
             color: "#F0F0F1",
             source: ["././projects/pictures/mosaik/1.png", "././projects/pictures/mosaik/2.png", "././projects/pictures/mosaik/3.png"],
             type: "pictures",
-            year: 4
+            year: 4,
+            course: "Bilddatabaser"
         },
         {
             title: "Raytracing",
@@ -189,7 +206,8 @@
             color: "#F0F0F1",
             source: ["././projects/pictures/ray/1.png", "././projects/pictures/ray/2.png"],
             type: "pictures",
-            year: 4 
+            year: 4,
+            course: "Advanced Global Illumination and Rendering"
         },
         {
             title: "Visualizing Space Weather",
@@ -198,7 +216,8 @@
             color: "#F0F0F1",
             source: ["././projects/pictures/space/1.png", "././projects/pictures/space/2.png"],
             type: "pictures",
-            year: 5 
+            year: 5,
+            course: "Examensarbete "
         },
         {
             title: "",
@@ -207,9 +226,12 @@
             color: "#B0B6BA",
             source: "././projects/movies/anton.mp4",
             type: "video",
-            year: 5 
+            year: 5,
+            course: "Digitala medier "
         }
         ];
+
+        
 
         $scope.changeView = function(project) {
 
