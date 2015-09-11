@@ -46,8 +46,9 @@
 			<h1>{{i}}</h1>
 
 			<div ng-repeat="project in getProjectsFromYear(i)">
-				<div class="thumb" ng-click="changeView(project)" ng-style="{'background-color' : project.color}">
-					<h2>{{project.title}}</h2>
+				<div class="thumb" ng-click="changeView(project)" ng-style="{'background-image': project.thumbnail}">
+
+					<h2><div ng-style="{'background-color': project.color}">{{project.title}}</div></h2>
 				</div>
 			</div>
 		</div>
