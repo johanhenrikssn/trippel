@@ -5,7 +5,7 @@ body {
 
 h1 {
 	font-size: 600%;
-	margin: 5% 0 3% 3%;
+	margin: 3% 0 3% 3%;
 	color: white;
 
 }
@@ -18,6 +18,14 @@ h1 span {
 h2 {
 	color: white;
 }
+
+h3 span {
+	font-size: 70%;
+	background-color: rgb(59, 192, 195); 
+	padding: 3px 15px;
+	color: white;
+}
+
 
 p {
 	font-size: 100%;
@@ -56,6 +64,10 @@ button{
 div {
 	margin: 0;
 	padding: 0;
+}
+
+.fa-2x {
+	padding: 0 25%;
 }
 
 .title {
