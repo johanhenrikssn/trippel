@@ -4,5 +4,5 @@
 </video>	
 
 <div>
-	 <div id="overlay" ng-if="overlay" > <p><span ng-style="{'background-color': activeProject.color}">Digitala medier, årskurs {{activeProject.year}}</span></p></div>	
+	 <div id="overlay" ng-if="overlay && activeProject.title != 'Om medieteknik' " > <p><span ng-style="{'background-color': activeProject.color, 'font-size' : 120-activeProject.course.length +'%'}">{{activeProject.course}}, årskurs {{activeProject.year}}</span></p></div>	
 </div>

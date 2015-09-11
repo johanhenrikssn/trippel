@@ -76,11 +76,12 @@
 
 					<carousel-container ng-if="activeProject.type == 'pictures'"></carousel-container>
 
+					<h3><span ng-style="{'background-color': activeProject.color}">Område: {{activeProject.domain}}</span></h3>
 				</div>
 
 				<div class="col-xs-4 ">	
 					<blockquote>
-					  <p>{{ activeProject.subtitle }}</p>
+					  <p>Från kursen {{activeProject.course}}, som går under år {{activeProject.year}}.</p>
 					</blockquote>
 					<p>{{activeProject.description}}</p>
 					<button ng-click="fullscreen.bool = true" ng-if="activeProject.type == 'webb'">
