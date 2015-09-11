@@ -232,10 +232,6 @@
             
         }
         
-        $scope.checkFullscreen = function() {
-            return $scope.fullscreen == true;
-        }
-
         $scope.getProjectsFromYear = function(year)
         {
             var tmpArray = [];

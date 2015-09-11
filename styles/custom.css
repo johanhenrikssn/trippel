@@ -65,14 +65,14 @@ div {
 	z-index: 1;
 	margin: 0;
 }
+
 .fullscreen{
-	width: 0vw;
+	width: 80vw;
 	position: absolute;
     left: 0px;
     top: 0px;
 	z-index: 1;
 }
-
 
 .timeline {
 	margin-top: 6%;
