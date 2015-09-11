@@ -11,12 +11,24 @@ h1 {
 }
 
 h1 span {
-	background-color: rgb(59, 192, 195); 
 	padding: 3px 15px;
 }
 
 h2 {
 	color: white;
+	vertical-align: middle;
+	position: relative;
+
+}
+
+h2 div {
+	padding: 5px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0%);
+	      -ms-transform: translate(-50%, 0%);
+	          transform: translate(-50%, 0%);
 }
 
 h3 span {
@@ -94,6 +106,8 @@ div {
 .thumb {
 	padding: 2%;
 	min-height: 250px;
+	background-size: cover;
+
 }
 
 .thumb:hover{
