@@ -25,7 +25,6 @@
         };
 
         $scope.changeView = function(project) {
-
           $scope.show = !$scope.show;
           $scope.activeProject = project;
 
