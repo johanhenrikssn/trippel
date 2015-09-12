@@ -76,19 +76,21 @@
 
 					<carousel-container ng-if="activeProject.type == 'pictures'"></carousel-container>
 
-					<h3><span ng-style="{'background-color': activeProject.color}">Område: {{activeProject.domain}}</span></h3>
+					<h3><span ng-style="{'background-color': activeProject.color}" ng-if="activeProject.title != 'Om medieteknik'">Område: {{activeProject.domain}}</span></h3>
 				</div>
 
 				<div class="col-xs-4 ">	
 					<blockquote>
-					  <p>Från kursen {{activeProject.course}}, som går under år {{activeProject.year}}.</p>
+					  <p ng-if="activeProject.title != 'Om medieteknik'">Från kursen {{activeProject.course}}, som går under år {{activeProject.year}}.</p>
+					  <p ng-if="activeProject.title == 'Om medieteknik'">
+					  	Grafik, visualisering, ljud- och videoteknik, bildbehandling, programmering, tryckteknik – utbildningen i medieteknik innefattar det mesta, det bästa och framför allt det senaste inom området.
+					  </p>
 					</blockquote>
 					<p>{{activeProject.description}}</p>
 					<button ng-click="fullscreen.bool = true" ng-if="activeProject.type == 'webb'">
 					  	<i class="fa fa-2x fa-expand"></i>
 					</button>
 				</div>
-
 
 			</div>
 

@@ -101,7 +101,7 @@
   {
       "title": "Splash",
       "domain": "App, Spel",
-      "description": "",
+      "description": "Projektet utvecklades som ett medietekniskt kandidatarbete. Målet var att utveckla ett sällskapsspel där spelarnas mobila enheter bildar en gemensam spelplan. Projektet innehåller fyra huvudområden: nätverk, spellogik, grafik och ljud. Nätverket använder en Peer-to-Peer-struktur. Spellogiken tar hand om beräkningar för att bland annat bestämma hur objekt rör sig. Grafik ansvarar över de grafiska komponenter som skapats och renderas med hjälp av augmented reality. Ljudmodulen strukturerades för att spela upp bakgrundsmusik och ljudeffekter. Resultatet blev ett spel för Android som stödjer upp till fyra spelare. Spelet går ut på att samla myror till sin myrstack genom att skjuta färgkulor på myrorna. Allt visas i realtid.",
       "color": "#F16161",
       "thumbnail": "url(././projects/movies/splash.png)",
       "source": "././projects/movies/splash.mp4",
