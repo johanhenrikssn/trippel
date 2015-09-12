@@ -80,7 +80,7 @@
       "title": "Mote.fm",
       "domain": "Användargränsnitt, App",
       "description": "Mote.fm är ett projekt som startade i kursen Kommunikation och användargränssnitt. Det är en tjänst för att demokratisera Spotifys uppspelningskö. Vem som helst kan skapa en lista och bjuda in sina vänner att komma med låtförslag och rösta på de förslagen som redan finns. Låtarna med flest röster spelas sedan först. Syftet är att förenkla valet av musik då det är flera personer som lyssnar tillsammans, till exempel på fest eller på ett café. Efter kursen vann projektet två priser i C Awards – priset för bästa kreativ teknisk tillämpning och priset för bästa affärsidé. Efter detta har projektet vidareutvecklats från att ha varit en enkel prototyp till att använda ett robust system i kombination med Android och iOS-appar. För att utveckla projektet ur ett affärspespektiv och nå en större publik har universitetet och InnovationskontorEtt varit till stor hjälp.",
-      "color": "#5BA675",
+      "color": "#F16161",
       "thumbnail": "url(././projects/movies/mote_fm.png)",
       "source": "././projects/movies/mote_fm.mp4",
       "type": "video",
@@ -225,12 +225,12 @@
       "source": "././projects/movies/anton.mp4",
       "type": "video",
       "year": 5,
-      "course": "Digitala medier "
+      "course": "Digitala medier"
   },
   {
       "title": "Rob's Vengence",
       "description": "Rob's Vengence är en 3D-animerad kortfilm som skapades i kursen Digitala medier. Idén bestod av att skapa en kort film på cirka en minut så att fokus kunde läggas på att skapa detaljerade omgivningar, modeller, animationer och ljussättning. Resultatet belönades med priset ”Bästa visuella effekt i film & rörlig bild” på C Awards-galan 2014.",
-      "color": "#B0B6BA",
+      "color": "#F16161",
       "thumbnail": "url(././projects/movies/robs_vengeance.png)",
       "source": "././projects/movies/robs_vengeance.mp4",
       "type": "video",
