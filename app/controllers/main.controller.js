@@ -259,6 +259,17 @@
             type: "video",
             year: 1,
             course: "Digitala medier"
+        },
+        {
+            title: "Stereoscopic Snow Simulation",
+            domain: "Datorgrafik",
+            description: "Projektets grundidé handlade om att visualisera olika typer av partikelsystem i domteatern på Visualiseringscenter C. Initialt lades fokus på snösimulering och tanken var att försöka arbeta på ett sådant sätt att vidareutveckling skulle vara möjligt. En tänkt riktning var att skapa olika typer av partikelsystem för att representera de olika årstiderna och visa upp ett år genom att växla simulering. Den färdiga produkten är ett partikelsystem anpassat för att visas i domen, där olika fält kan appliceras för att simulera olika effekter. Vind, virvlar och även gravitation kan skapas och regleras via gränssnittet. Systemet är designat för att göra det enkelt att bygga vidare på och ger användaren möjligheten att själv bestämma hur simulationen ska se ut och bete sig. De programspråk som användes för att åstadkomma det är C++ och ett bibliotek som heter SGCT (Simple Graphics Cluster Toolkit). ",
+            color: "#B0B6BA",
+            thumbnail: "url(././projects/pictures/snömys/1.jpg)",
+            source: ["././projects/pictures/snömys/1.jpg"],
+            type: "pictures",
+            year: 2,
+            course: "3D-Datorgrafik"
         }
         ];
 
