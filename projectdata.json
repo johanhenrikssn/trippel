@@ -156,7 +156,7 @@
   {
       "title": "DooVR",
       "domain": "Virtual reality",
-      "description": " ",
+      "description": "DooVR är en applikation som gör det möjligt att skulptera i virtual realty med en trådlös penna. För VR-tekniken används Oculus Rift-glasögon. Modellerna som skulpteras kan sparas som 3D-objekt.",
       "color": "#F16161",
       "thumbnail": "url(././projects/movies/doo.png)",
       "source": "././projects/movies/doo.mp4",
@@ -218,14 +218,14 @@
       "year": 5
   },
   {
-      "title": "Anton",
+      "title": "Rymdsimulering",
       "domain": "Datorgrafik, Visualisering",
       "color": "#F16161",
       "thumbnail": "url(././projects/movies/anton.png)",
       "source": "././projects/movies/anton.mp4",
       "type": "video",
       "year": 5,
-      "course": "Digitala medier"
+      "course": "Examensarbete"
   },
   {
       "title": "Rob's Vengence",
