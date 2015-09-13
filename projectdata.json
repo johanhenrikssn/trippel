@@ -57,7 +57,7 @@
   {
       "title": "Isande diskant",
       "domain": "Film",
-      "description": "Isande Diskant är ett kortfilm som utspelar sig i ett samhälle där musik klassas som, och är, en olaglig och farlig drog samt ett kompisgängs möte med ett missbruk. Filmen är gjord i kursen Digitala Medier.",
+      "description": "Isande Diskant är ett kortfilm som utspelar sig i ett samhälle där musik är en olaglig och farlig drog. Den visar ett kompisgängs möte med ett missbruk. Filmen är baserad på ett egenskrivet manus, skådespelare kontaktades via en castinghemsida och inspelningsplatserna är runt om i Norrköping.",
       "color": "#F16161",
       "thumbnail": "url(././projects/movies/isande_diskant.png)",
       "source": "././projects/movies/isande_diskant.mp4",
@@ -247,5 +247,16 @@
       "type": "video",
       "year": 2,
       "course": "3D-Datorgrafik"
+   },
+   {
+      "title": "WakeMeApp",
+      "domain": "Användargränsnitt, App",
+      "description": "WakeMeApp är en väckarklocksapplikation som riktar sig till de som har problem med att ta sig upp på morgonen. När alarmet ringer tilldelas användaren frågor med olika svarsalternativ. För att stänga av alarmet behöver användaren svara rätt på en fråga, annars tilldelas en ny fråga. Tanken är att WakeMeApp ska hjälpa användaren att vakna direkt och applikationen saknar därmed snooze-funktion. Projektet hade användarvänlighet som främsta prioritering med fokus på tydlighet och struktur.",
+      "color": "#F16161",
+      "thumbnail": "url(././projects/movies/wakemeapp.png)",
+      "source": "././projects/movies/wakemeapp.mp4",
+      "type": "video",
+      "year": 2,
+      "course": "Kommunikation och användargränssnitt"
    }
 ]
