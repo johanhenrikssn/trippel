@@ -26,7 +26,7 @@
       "domain": "Användargränssnitt, Webb",
       "description": "Projektet var att skapa en LEGO-hemsida som skulle vara kopplad till en databas. Hemsidan skulle fungera som ett slags uppslagsverk för LEGO-fantaster där de kunde kolla upp olika legosatser och vilka bitar de olika satserna innehåller. Flera programmeringsspråk skulle användas, HTML, CSS, PHP, JavaScript och MySQL för att skapa hemsidan. HTML användes för att skapa strukturen på hemsidan, var de olika blocken ska ligga osv. CSS var till för att bestämma utseendet, hur bilderna och texterna skulle utformas definerades där. JavaScript användes för att göra hemsidan dynamisk, som att när musen förs över objekten i listorna ändras färgen på texten på objektet. PHP och MySQL är språk som används vid arbete med databaser, som i detta fall handlade om LEGO. ",
       "color": "#3E4F5B",
-      "thumbnail": "url(././projects/pictures/lego/thumb.jpg)",
+      "thumbnail": "url(././projects/pictures/lego/thumb.png)",
       "source": ["././projects/pictures/lego/1.png", "././projects/pictures/lego/2.png", "././projects/pictures/lego/3.png", "././projects/pictures/lego/4.png"],
       "type": "pictures",
       "year": 1,
@@ -57,7 +57,7 @@
   {
       "title": "Isande diskant",
       "domain": "Film",
-      "description": "Isande Diskant är ett kortfilm som utspelar sig i ett samhälle där musik klassas som, och är, en olaglig och farlig drog samt ett kompisgängs möte med ett missbruk. Filmen är gjord i kursen Digitala Medier.",
+      "description": "Isande Diskant är ett kortfilm som utspelar sig i ett samhälle där musik är en olaglig och farlig drog. Den visar ett kompisgängs möte med ett missbruk. Filmen är baserad på ett egenskrivet manus, skådespelare kontaktades via en castinghemsida och inspelningsplatserna är runt om i Norrköping.",
       "color": "#F16161",
       "thumbnail": "url(././projects/movies/isande_diskant.png)",
       "source": "././projects/movies/isande_diskant.mp4",
@@ -147,7 +147,7 @@
       "domain": "Datorgrafik, Webb",
       "description": "Användaren får bestämma ett antal parametrar och utifrån dessa ritas en realtids uppdaterad modell av en planet ut. Projektet är webbaserat och gjord i kursen Procedurella metoder för bilder.",
       "color": "#3BC0C3",
-      "thumbnail": "url(././projects/webb/oscar/webgl/thumb.png)",
+      "thumbnail": "url(././projects/webb/oscar/thumb.png)",
       "source": "././projects/webb/oscar/webgl",
       "type": "webb",
       "year": 4,
@@ -156,7 +156,7 @@
   {
       "title": "DooVR",
       "domain": "Virtual reality",
-      "description": " ",
+      "description": "DooVR är en applikation som gör det möjligt att skulptera i virtual realty med en trådlös penna. För VR-tekniken används Oculus Rift-glasögon. Modellerna som skulpteras kan sparas som 3D-objekt.",
       "color": "#F16161",
       "thumbnail": "url(././projects/movies/doo.png)",
       "source": "././projects/movies/doo.mp4",
@@ -218,14 +218,14 @@
       "year": 5
   },
   {
-      "title": "Anton",
+      "title": "Rymdsimulering",
       "domain": "Datorgrafik, Visualisering",
       "color": "#F16161",
       "thumbnail": "url(././projects/movies/anton.png)",
       "source": "././projects/movies/anton.mp4",
       "type": "video",
       "year": 5,
-      "course": "Digitala medier"
+      "course": "Examensarbete"
   },
   {
       "title": "Rob's Vengence",
@@ -242,10 +242,21 @@
       "domain": "Datorgrafik",
       "description": "Projektets grundidé handlade om att visualisera olika typer av partikelsystem i domteatern på Visualiseringscenter C. Initialt lades fokus på snösimulering och tanken var att försöka arbeta på ett sådant sätt att vidareutveckling skulle vara möjligt. En tänkt riktning var att skapa olika typer av partikelsystem för att representera de olika årstiderna och visa upp ett år genom att växla simulering. Den färdiga produkten är ett partikelsystem anpassat för att visas i domen, där olika fält kan appliceras för att simulera olika effekter. Vind, virvlar och även gravitation kan skapas och regleras via gränssnittet. Systemet är designat för att göra det enkelt att bygga vidare på och ger användaren möjligheten att själv bestämma hur simulationen ska se ut och bete sig. De programspråk som användes för att åstadkomma det är C++ och ett bibliotek som heter SGCT (Simple Graphics Cluster Toolkit). ",
       "color": "#3E4F5B",
-      "thumbnail": "url(././projects/pictures/snömys/1.jpg)",
-      "source": ["././projects/pictures/snömys/1.jpg"],
-      "type": "pictures",
+      "thumbnail": "url(././projects/movies/snomys.png)",
+      "source": "././projects/movies/snomys.mp4",
+      "type": "video",
       "year": 2,
       "course": "3D-Datorgrafik"
+   },
+   {
+      "title": "WakeMeApp",
+      "domain": "Användargränsnitt, App",
+      "description": "WakeMeApp är en väckarklocksapplikation som riktar sig till de som har problem med att ta sig upp på morgonen. När alarmet ringer tilldelas användaren frågor med olika svarsalternativ. För att stänga av alarmet behöver användaren svara rätt på en fråga, annars tilldelas en ny fråga. Tanken är att WakeMeApp ska hjälpa användaren att vakna direkt och applikationen saknar därmed snooze-funktion. Projektet hade användarvänlighet som främsta prioritering med fokus på tydlighet och struktur.",
+      "color": "#F16161",
+      "thumbnail": "url(././projects/movies/wakemeapp.png)",
+      "source": "././projects/movies/wakemeapp.mp4",
+      "type": "video",
+      "year": 2,
+      "course": "Kommunikation och användargränssnitt"
    }
 ]
