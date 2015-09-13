@@ -11,7 +11,7 @@
       "course": "Kandidatarbete"
   },
   {
-      "title": "Mr Carrot",
+      "title": "Mr.Carrot",
       "domain": "Datorgrafik, Spel",
       "description": "Spelet går i princip ut på att rädda sina morotskompisar från maskarna som anfaller. Ett stort fokus låg på det grafiska och spelet gjordes i grafikmotorn Ogre 3D. Spelet programmerades sedan i C++. Kursen som spelet är gjort i heter 3D Datorgrafik. ",
       "color": "#F16161",
@@ -20,6 +20,17 @@
       "type": "video",
       "year": 2,
       "course": "3D-Datorgrafik"
+  },
+  {
+      "title": "Kreativ bildbehandling",
+      "domain": "Bildbehandling",
+      "description": "Alla vi hade precis flyttat till Norrköping, och ville därför fånga den magiska staden i bild. Men för oss så var staden mycket mer än bara staden, det var människorna i den, människorna vi var med varje dag. Därför tänkte vi att vi kunde på något vis få dessa två saker att överlappa. Tillsammans med systemkameror, lite insikt i fotografi och dess tekniska detaljer, samt det fantastiska programmet Photoshop så fick vi till slut det vi ville ha. Resultatet är det som ni ser här, bilder på staden tillsammans med personerna vi känner. Den kreativa fokusen ligger i att försöka kombinera två former av bilder, porträtt och landskap, och på något sätt ge bilderna mer liv. Att redan i ettan få göra detta projekt, och hands-on sätta sig in i ett kreativt tänkande, var nyttigt, speciellt för framtida kurser.",
+      "color": "#3E4F5B",
+      "thumbnail": "url(././projects/pictures/kreativ/thumb.png)",
+      "source": ["././projects/pictures/kreativ/1.jpg","././projects/pictures/kreativ/2.jpg"],
+      "type": "pictures",
+      "year": 1,
+      "course": "Digitala medier"
   },
   {
       "title": "Legohemsida",
