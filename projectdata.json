@@ -33,7 +33,7 @@
       "course": "Digitala medier"
   },
   {
-      "title": "Legohemsida",
+      "title": "Lego super search",
       "domain": "Användargränssnitt, Webb",
       "description": "Projektet var att skapa en LEGO-hemsida som skulle vara kopplad till en databas. Hemsidan skulle fungera som ett slags uppslagsverk för LEGO-fantaster där de kunde kolla upp olika legosatser och vilka bitar de olika satserna innehåller. Flera programmeringsspråk skulle användas, HTML, CSS, PHP, JavaScript och MySQL för att skapa hemsidan. HTML användes för att skapa strukturen på hemsidan, var de olika blocken ska ligga osv. CSS var till för att bestämma utseendet, hur bilderna och texterna skulle utformas definerades där. JavaScript användes för att göra hemsidan dynamisk, som att när musen förs över objekten i listorna ändras färgen på texten på objektet. PHP och MySQL är språk som används vid arbete med databaser, som i detta fall handlade om LEGO. ",
       "color": "#3E4F5B",
@@ -221,6 +221,7 @@
   },
   {
       "title": "Mammografibilder",
+      "domain": "Bildbehandling",
       "description": "Det här exjobbet innefattar en utveckling och implementering av en algoritm som detekterar siliconinplantat i mammografibilder. Exjobbet utfördes åt Sectra AB, och syftet med projektet är att ha möjlighet att gömma implantaten då de kan vara störande vid bedömning av bröstcancer. De sista bilderna i bildspelet visar det slutgiltiga resultatet och de övriga bilderna visar andra detekteringsmetoder.",
       "color": "#3E4F5B",
       "thumbnail": "url(././projects/pictures/bröst/thumb.png)",
@@ -240,6 +241,7 @@
   },
   {
       "title": "Rob's Vengence",
+      "domain": "Film",
       "description": "Rob's Vengence är en 3D-animerad kortfilm som skapades i kursen Digitala medier. Idén bestod av att skapa en kort film på cirka en minut så att fokus kunde läggas på att skapa detaljerade omgivningar, modeller, animationer och ljussättning. Resultatet belönades med priset ”Bästa visuella effekt i film & rörlig bild” på C Awards-galan 2014.",
       "color": "#F16161",
       "thumbnail": "url(././projects/movies/robs_vengeance.png)",
