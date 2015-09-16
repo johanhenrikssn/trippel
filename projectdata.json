@@ -230,7 +230,8 @@
       "year": 5
   },
   {
-      "title": "Rymdsimulering",
+      "title": "Visualisering av rymduppdrag",
+      "description": "För att nå ut till offentligheten med de otroliga historierna om de uppdrag som NASA och ESA utför i universum har ett antal Medieteknikstudenter utvecklat visualiseringsverktyget OpenSpace på plats i USA. Filmen är inspelad från OpenSpace och visar hur rymdsonden Rosetta studerade kometen 67P. Detta genom att med en vetenskaplig korrekthet simulera dess färdväg, instrumentens synfält och projektion av de bilder som skickats tillbaka från Rosetta till Jorden.",
       "domain": "Datorgrafik, Visualisering",
       "color": "#F16161",
       "thumbnail": "url(././projects/movies/anton.png)",
