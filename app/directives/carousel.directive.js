@@ -15,12 +15,12 @@
         return directive;
 
         function link($scope, $element, $attrs, $window) {
-          	
+
             $(function() {
                 $('.carousel').carousel({
                     interval: 3000
-                })
-            });     	
+                });
+            });
 
         }
 

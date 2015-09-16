@@ -1,14 +1,14 @@
 <video controls autoplay>
-  	<source ng-src="{{activeProject.source}}" type="video/mp4">
+  <source ng-src="{{activeProject.source}}" type="video/mp4">
 	Your browser does not support the video tag.
 </video>
 
 <div>
-    <div id="overlay" ng-if="overlay && activeProject.title != 'Om medieteknik' " >
-        <p>
-            <span ng-style="{'background-color': activeProject.color, 'font-size' : 120-activeProject.course.length +'%'}">
-                {{activeProject.course}}, årskurs {{activeProject.year}}
-            </span>
-        </p>
-    </div>
+  <div id="overlay" ng-if="overlay && activeProject.title != 'Om medieteknik' " >
+    <p>
+      <span ng-style="{'background-color': activeProject.color, 'font-size' : 120-activeProject.course.length +'%'}">
+        {{activeProject.course}}, årskurs {{activeProject.year}}
+      </span>
+    </p>
+  </div>
 </div>

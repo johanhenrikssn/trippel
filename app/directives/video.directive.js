@@ -15,13 +15,13 @@
         return directive;
 
         function link($scope, $element, $attrs, $window) {
-          	
-          	
+
+
      	  	document.addEventListener("webkitfullscreenchange", overlay);
-        
+
         	function overlay() {
         		$scope.overlay = !$scope.overlay;
-        		$scope.$apply()
+        		$scope.$apply();
         	}
 
         }

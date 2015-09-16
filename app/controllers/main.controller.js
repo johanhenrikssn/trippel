@@ -12,7 +12,6 @@
           $scope.projects = data;
         }).then(function(){
 
-            $scope.activeProject;
             $scope.show = false;
             $scope.fullscreen = { bool: false};
 
@@ -35,14 +34,11 @@
                 var tmpArray = [];
                 for (var i = 0; i < $scope.projects.length; i++) {
                     if($scope.projects[i].year == year)
-                        tmpArray.push($scope.projects[i])
-                };
+                        tmpArray.push($scope.projects[i]);
+                }
 
                 return tmpArray;
             };
-
         });
-
-        
     }
 })();
