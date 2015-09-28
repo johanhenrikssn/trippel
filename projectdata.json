@@ -276,10 +276,10 @@
    {
       "title": "Automatisk Kraschanalys",
       "domain": "Datalogi",
-      "description": "",
+      "description": "Skype är en applikation som finns på många plattformar idag, det har därför varit ett mål under en lång period att minimera antalet krascher för användaren. Skype har därför sedan länge använt ett egenbyggt system för att testa apparna på de olika plattformarna.  Målet med examensarbetet var att minimera antalet krascher på Windows, OS X och Linux genom att kombinera nya metoder för att plocka ut kraschinformation från flera plattformar. Dessutom så användes visualiseringsmetoder designade för att korrelera informationen mellan de olika plattformarna. Metoderna innebär en vy för att se funktionsanropen då kraschen hände, men också grafer som visar hur programflödet vid kraschen ser ut över alla krascher och plattformar.   Examensarbetet skrevs på Skypes Stockholmskontor som ligger beläget i München Bryggeriet.",
       "color": "#3E4F5B",
       "thumbnail": "url(././projects/pictures/skype/thumb.png)",
-      "source": ["././projects/pictures/skype/1.png"],
+      "source": ["././projects/pictures/skype/1.png","././projects/pictures/skype/2.png","././projects/pictures/skype/3.png", "././projects/pictures/skype/4.png", "././projects/pictures/skype/5.png"],
       "type": "pictures",
       "year": 5,
       "course": "Examensarbete"
