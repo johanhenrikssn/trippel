@@ -241,7 +241,7 @@
       "course": "Examensarbete"
   },
   {
-      "title": "Rob's Vengence",
+      "title": "Rob's Vengeance",
       "domain": "Film",
       "description": "Rob's Vengence är en 3D-animerad kortfilm som skapades i kursen Digitala medier. Idén bestod av att skapa en kort film på cirka en minut så att fokus kunde läggas på att skapa detaljerade omgivningar, modeller, animationer och ljussättning. Resultatet belönades med priset ”Bästa visuella effekt i film & rörlig bild” på C Awards-galan 2014.",
       "color": "#F16161",
@@ -255,7 +255,7 @@
       "title": "Stereoscopic Snow Simulation",
       "domain": "Datorgrafik",
       "description": "Projektets grundidé handlade om att visualisera olika typer av partikelsystem i domteatern på Visualiseringscenter C. Initialt lades fokus på snösimulering och tanken var att försöka arbeta på ett sådant sätt att vidareutveckling skulle vara möjligt. En tänkt riktning var att skapa olika typer av partikelsystem för att representera de olika årstiderna och visa upp ett år genom att växla simulering. Den färdiga produkten är ett partikelsystem anpassat för att visas i domen, där olika fält kan appliceras för att simulera olika effekter. Vind, virvlar och även gravitation kan skapas och regleras via gränssnittet. Systemet är designat för att göra det enkelt att bygga vidare på och ger användaren möjligheten att själv bestämma hur simulationen ska se ut och bete sig. De programspråk som användes för att åstadkomma det är C++ och ett bibliotek som heter SGCT (Simple Graphics Cluster Toolkit). ",
-      "color": "#3E4F5B",
+      "color": "#F16161",
       "thumbnail": "url(././projects/movies/snomys.png)",
       "source": "././projects/movies/snomys.mp4",
       "type": "video",
@@ -275,9 +275,9 @@
    },
    {
       "title": "Automatisk Kraschanalys",
-      "domain": "",
+      "domain": "Datalogi",
       "description": "",
-      "color": "#F16161",
+      "color": "#3E4F5B",
       "thumbnail": "url(././projects/pictures/skype/thumb.png)",
       "source": ["././projects/pictures/skype/1.png"],
       "type": "pictures",
@@ -286,11 +286,11 @@
    },
    {
       "title": "Framework for Innovation",
-      "domain": "",
-      "description": "",
-      "color": "#F16161",
+      "domain": "Utvecklingsstudie",
+      "description": "Exjobbaren utvecklade ett ramverk för strukturerad innovation, anpassat för Spotify. Ramverket är baserat på undersökningar om hur ett mjukvaruföretag effektivt och organiskt kan hålla sig innovativa. För undersökningen gjordes intervjuer inom Spotify och med 17 amerikanska bolag.",
+      "color": "#3E4F5B",
       "thumbnail": "url(././projects/pictures/spotify/thumb.png)",
-      "source": ["././projects/pictures/spotify/1.png"],
+      "source": ["././projects/pictures/spotify/1.png", "././projects/pictures/spotify/2.png", "././projects/pictures/spotify/3.png", "././projects/pictures/spotify/4.png"],
       "type": "pictures",
       "year": 5,
       "course": "Examensarbete"
