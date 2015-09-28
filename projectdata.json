@@ -49,7 +49,7 @@
       "description": "Projektet är en simulering av en fluid i 2 dimensioner. Tekniken som används kallas Smoothed Particle Hydrodynamics, det innebär att fluiden ses som partiklar som rör sig över ett rutnät. Partiklarna påverkar varandra och väggarna med olika krafter och utifrån rutnätet beräknas varje partikels nästa position och tillsammans rör sig partiklarna som en fluid. Webbapplikationen är egentligen ett sidoprojekt utifrån ett projekt som är gjort i C++/OpenGL till kursen Modelleringsprojekt. ",
       "color": "#3BC0C3",
       "thumbnail": "url(././projects/webb/sph_fluid/thumb.png)",
-      "source": "././projects/webb/sph_fluid/app",
+      "source": "././projects/webb/sph_fluid/app/index.html",
       "type": "webb",
       "year": 3,
       "course": "Modellering och simulering"
@@ -126,7 +126,7 @@
       "description": "Applikationen är ett interaktivt visualiseringsverktyg där matematiska koncept förklaras på ett enkelt sätt. Målgruppen är universitets studenter och är byggd på modern 3D grafik som körs i en webbläsare.",
       "color": "#3BC0C3",
       "thumbnail": "url(././projects/webb/continuous/thumb.png)",
-      "source": "././projects/webb/continuous",
+      "source": "././projects/webb/continuous/index.html",
       "type": "webb",
       "year": 3,
       "course": "3D-Datorgrafik"
@@ -137,7 +137,7 @@
       "description": "Genom att kombinera tre olika datakällor med brottsstatistik skapades en interaktiv visualisering av statistiken över landet. Konceptet Data mining användes för att hitta mönster och samband i datamängden. Med hjälp av dessa mönster kunde på så vis brottsprofiler för olika kommuner och län tas fram. Den interaktiva applikationen visualiserade sedan dessa slutsatser med hjälp av diverse webbtekniker, bland annat javascriptsbiblioteket D3js och Bootstrap.",
       "color": "#3BC0C3",
       "thumbnail": "url(././projects/webb/skurk/thumb.png)",
-      "source": "././projects/webb/skurk",
+      "source": "././projects/webb/skurk/index.html",
       "type": "webb",
       "year": 4,
       "course": "Digitala medier"
@@ -148,7 +148,7 @@
       "description": "WebtherGL är en webbapplikation som visar SMHI:s väderprognoser i 3D och skapades i kursen 3D-datorgrafik.  Datan hämtas med hjälp av SMHI:s API separat och sparas i en databas, datan renderas sedan på hemsidan. Innehåller simuleringar för: moln, temperatur, nederbörd, vind, luftfukighet. Genom att klicka på platser på kartan kan man även få 10-dagarsprognoser.",
       "color": "#3BC0C3",
       "thumbnail": "url(././projects/webb/webther/thumb.png)",
-      "source": "././projects/webb/webther",
+      "source": "././projects/webb/webther/index.html",
       "type": "webb",
       "year": 2,
       "course": "3D-Datorgrafik"
@@ -159,7 +159,7 @@
       "description": "Användaren får bestämma ett antal parametrar och utifrån dessa ritas en realtids uppdaterad modell av en planet ut. Projektet är webbaserat och gjord i kursen Procedurella metoder för bilder.",
       "color": "#3BC0C3",
       "thumbnail": "url(././projects/webb/oscar/thumb.png)",
-      "source": "././projects/webb/oscar/webgl",
+      "source": "././projects/webb/oscar/webgl/index.html",
       "type": "webb",
       "year": 4,
       "course": "Procedurella metoder för bilder"
@@ -181,7 +181,7 @@
       "description": "Det som ses på webbsidan är procedurellt genererad eld som är skrivit i WebGL och shaders i GLSL. Noise kan bli genererat och manipulerat på många olika sätt för att skapa visuella effekter. Det användas för att öka realismen i datorgrafik, detta då objekt inte har exempelvis en perfekt yta. Kan även användas för att slumvis ändra strukturen på moln eller eld.",
       "color": "#3BC0C3",
       "thumbnail": "url(././projects/webb/fire/thumb.png)",
-      "source": "././projects/webb/fire",
+      "source": "././projects/webb/fire/index.html",
       "type": "webb",
       "year": 4,
       "course": "Procedurella metoder för bilder"
@@ -272,5 +272,27 @@
       "type": "video",
       "year": 2,
       "course": "Kommunikation och användargränssnitt"
+   },
+   {
+      "title": "Automatisk Kraschanalys",
+      "domain": "",
+      "description": "",
+      "color": "#F16161",
+      "thumbnail": "url(././projects/pictures/skype/thumb.png)",
+      "source": ["././projects/pictures/skype/1.png"],
+      "type": "pictures",
+      "year": 5,
+      "course": "Examensarbete"
+   },
+   {
+      "title": "Framework for Innovation",
+      "domain": "",
+      "description": "",
+      "color": "#F16161",
+      "thumbnail": "url(././projects/pictures/spotify/thumb.png)",
+      "source": ["././projects/pictures/spotify/1.png"],
+      "type": "pictures",
+      "year": 5,
+      "course": "Examensarbete"
    }
 ]
